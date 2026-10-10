@@ -1,4 +1,5 @@
 # Direct Gravitational N-Body Integration Benchmark
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23286569.svg)](https://doi.org/10.5281/zenodo.23286569)
 Research manuscript version: 1.0 — 10 October 2026
 
 This repository accompanies “Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4.” It is a numerical-methods benchmark, not a new integration algorithm.
