@@ -1,0 +1,6 @@
+CPU model recorded for benchmark: AMD EPYC 9V74 80-Core Processor (3 logical CPUs available to the process)
+Platform: Linux-6.18.44-x86_64-with-glibc2.41
+Python: 3.13.5
+NumPy: 2.3.5
+SciPy: 1.17.0
+Numba: 0.65.1
