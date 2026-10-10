@@ -1,2 +1,0 @@
-system,integrator,dt_days,duration_years,max_relative_energy_error,max_relative_angular_momentum_error,max_position_error_AU,max_COM_drift_AU
-Sun-Earth,Velocity-Verlet,0.5,1.0,1.3681272947335936e-09,1.635432187432077e-15,0.0001618922524281723,2.3396163525188092e-20
