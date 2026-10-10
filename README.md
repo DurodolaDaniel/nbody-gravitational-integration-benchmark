@@ -4,27 +4,27 @@ Research manuscript version: 1.0 — 10 October 2026
 This repository accompanies “Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4.” It is a numerical-methods benchmark, not a new integration algorithm.
 
 # Contents
-manuscript/Durodola_NBody_Benchmark.pdf — corrected manuscript PDF.
+-manuscript/Durodola_NBody_Benchmark.pdf — corrected manuscript PDF.
 
-manuscript/Durodola_NBody_Benchmark.docx — editable manuscript source.
+-manuscript/Durodola_NBody_Benchmark.docx — editable manuscript source.
 
-code/nbody_research.py — direct-force N-body model, integrators, diagnostics, and original experiments.
+-code/nbody_research.py — direct-force N-body model, integrators, diagnostics, and original experiments.
 
-code/final_kepler_benchmark.py — fixed-step work–precision and convergence tests against the analytical two-body Kepler solution; DOP853 is an adaptive numerical baseline.
+-code/final_kepler_benchmark.py — fixed-step work–precision and convergence tests against the analytical two-body Kepler solution; DOP853 is an adaptive numerical baseline.
 
-code/euler_fine_convergence.py — fine-grid Euler convergence check.
+-code/euler_fine_convergence.py — fine-grid Euler convergence check.
 
-code/make_main_yoshida_figures.py — main four-integrator comparison and convergence figures.
+-code/make_main_yoshida_figures.py — main four-integrator comparison and convergence figures.
 
-code/five_year_integrator_comparison.py — regenerates the common five-year, four-integrator comparison in Table 2.
+-code/five_year_integrator_comparison.py — regenerates the common five-year, four-integrator comparison in Table 2.
 
-code/long_duration_and_figure8.py — reruns the 1,000-orbit eccentric sweep at 5,000, 10,000, and 20,000 steps/orbit, with 200 diagnostic samples per orbit, and reruns the figure-eight return test.
+-code/long_duration_and_figure8.py — reruns the 1,000-orbit eccentric sweep at 5,000, 10,000, and 20,000 steps/orbit, with 200 diagnostic samples per orbit, and reruns the figure-eight return test.
 
-results/tables/ — CSV tables, including the five-year comparison and long-duration resolution sweep.
+-results/tables/ — CSV tables, including the five-year comparison and long-duration resolution sweep.
 
-results/figures/ — figures used in the manuscript and numerical diagnostics. The long-duration eccentric Figure 8 has been regenerated and visually checked.
+-results/figures/ — figures used in the manuscript and numerical diagnostics. The long-duration eccentric Figure 8 has been regenerated and visually checked.
 
-CITATION.cff — citation metadata with the author's ORCID.
+-CITATION.cff — citation metadata with the author's ORCID.
 
 # Environment
 The experiments were run with Python 3.13.5, NumPy 2.3.5, SciPy 1.17.0, Matplotlib 3.10.8, Numba 0.65.1, and pandas 2.2.3 on Linux x86_64. The runtime reported an AMD EPYC 9V74 80-Core Processor, with three logical CPUs available to the process. Timing results are environment-dependent and should not be interpreted as hardware-independent performance claims.
