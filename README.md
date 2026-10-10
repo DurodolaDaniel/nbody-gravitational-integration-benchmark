@@ -3,6 +3,24 @@ Research manuscript version: 1.0 — 10 October 2026
 
 This repository accompanies “Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4.” It is a numerical-methods benchmark, not a new integration algorithm.
 
+## Citation
+
+If you use this software or its benchmark results in your
+research, please cite the archived release:
+
+Durodola, D. (2026). Conservation versus Trajectory Accuracy
+in Direct Gravitational N-Body Integration: A Benchmark of
+Euler, Velocity-Verlet, RK4, and Yoshida4 (Version 1.0.0).
+Zenodo.
+
+https://doi.org/10.5281/zenodo.23286569
+
+## Archived release
+
+The version 1.0.0 release is archived on Zenodo.
+
+DOI: https://doi.org/10.5281/zenodo.23286569
+
 # Contents
 -manuscript/Durodola_NBody_Benchmark.pdf — corrected manuscript PDF.
 
