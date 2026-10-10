@@ -15,10 +15,10 @@ code/long_duration_and_figure8.py — reruns the 1,000-orbit eccentric sweep at 
 results/tables/ — CSV tables, including the five-year comparison and long-duration resolution sweep.
 results/figures/ — figures used in the manuscript and numerical diagnostics. The long-duration eccentric Figure 8 has been regenerated and visually checked.
 CITATION.cff — citation metadata with the author's ORCID.
-Environment
+# Environment
 The experiments were run with Python 3.13.5, NumPy 2.3.5, SciPy 1.17.0, Matplotlib 3.10.8, Numba 0.65.1, and pandas 2.2.3 on Linux x86_64. The runtime reported an AMD EPYC 9V74 80-Core Processor, with three logical CPUs available to the process. Timing results are environment-dependent and should not be interpreted as hardware-independent performance claims.
 
-# Install dependencies:
+Install dependencies:
 
 python -m pip install -r requirements.txt
 Reproduce the main experiments from the repository root:
