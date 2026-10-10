@@ -1,5 +1,0 @@
-method,observed_order_fit_steps_ge_3000,n_points
-Euler,0.598623608637487,4
-RK4,4.051764510406462,4
-Velocity-Verlet,1.9255798375922104,4
-Yoshida4,3.996017017067683,4
