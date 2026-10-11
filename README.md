@@ -25,15 +25,25 @@ The direct-force model uses Newtonian pairwise gravitational interactions. Diagn
 ## Repository contents
 
 • code/nbody_research.py — core direct-force model, initial conditions, integrators, diagnostics, and the main set of Sun–Earth, Sun–Earth–Mars, binary-star, scaling, and softening experiments.
+
 • code/five_year_integrator_comparison.py — regenerates the four-method, five-year Sun–Earth comparison table.
+
 • code/make_main_yoshida_figures.py — regenerates the four-method comparison and timestep-convergence figures, including Yoshida4.
+
 • code/final_kepler_benchmark.py — compares fixed-step methods with an analytical eccentric Kepler solution; also generates work–precision, convergence, and velocity-Verlet energy-error analyses.
+
 • code/euler_fine_convergence.py — performs a fine-grid Euler convergence check.
+
 • code/long_duration_and_figure8.py — runs the 1,000-orbit eccentric Kepler resolution sweep and the figure-eight return-error experiment. This is a longer run and uses Numba-compiled kernels.
+
 • results/tables/ — CSV benchmark tables and run metadata.
+
 • results/figures/ — plots used for analysis and the manuscript.
+
 • manuscript/ — PDF and editable Word manuscript files.
+
 • CITATION.cff — software citation metadata.
+
 • requirements.txt — pinned Python dependencies.
 
 ## Requirements
@@ -183,10 +193,15 @@ These scripts are reproducibility/benchmark programs; the repository does not cu
 ## Interpretation and limitations
 
 • Good energy conservation does not guarantee small trajectory error over very long integrations; phase error must also be examined.
+
 • In the 1,000-orbit eccentric test, Velocity-Verlet’s trajectory discrepancy remains large at the tested resolutions, while RK4 and Yoshida4 show smaller trajectory errors. Do not rank methods from energy error alone.
+
 • The figure-eight experiment uses rounded initial conditions, so its return-error floor is influenced by the precision of those initial conditions.
+
 • The Pythagorean close-encounter experiment is under-resolved and is not used to rank methods.
+
 • Comparisons against REBOUND and JPL Horizons have not been completed. The project therefore does not claim external validation against those tools.
+
 • Benchmark timings are hardware- and environment-dependent.
 
 ## Citation
