@@ -1,6 +1,8 @@
 ## Direct Gravitational N-Body Integration Benchmark
 
-DOI Version
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23286569.svg)](https://doi.org/10.5281/zenodo.23286569)
+
+[![GitHub Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.0.0)
 
 A reproducible computational-physics benchmark comparing numerical methods for direct Newtonian gravitational N-body integration. The project studies the distinction between conservation behaviour and trajectory accuracy using analytical Kepler solutions, timestep refinement, long-duration eccentric-orbit integrations, and multi-body examples.
 
