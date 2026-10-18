@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or benchmark, please cite the associated manuscript and repository."
 title: "Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4"
-version: 1.0.0
+version: 1.1.0
 authors:
   - family-names: Durodola
     given-names: Daniel
