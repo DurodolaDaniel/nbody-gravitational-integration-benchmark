@@ -1,13 +1,19 @@
 ## Direct Gravitational N-Body Integration Benchmark
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23286569.svg)](https://doi.org/10.5281/zenodo.23286569)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23480336.svg)](https://doi.org/10.5281/zenodo.23480336)
 
-[![GitHub Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.0.0)
+[![Release](https://img.shields.io/badge/release-v1.1.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.1.0)
 
 A reproducible computational-physics benchmark comparing numerical methods for direct Newtonian gravitational N-body integration. The project studies the distinction between conservation behaviour and trajectory accuracy using analytical Kepler solutions, timestep refinement, long-duration eccentric-orbit integrations, and multi-body examples.
 
-Archived software release: v1.0.0
-Zenodo DOI: 10.5281/zenodo.23286569
+Version **v1.1.0** is archived on Zenodo.
+
+**Latest release DOI:** [10.5281/zenodo.23480336](https://doi.org/10.5281/zenodo.23480336)
+
+The earlier **v1.0.0** release remains available at [10.5281/zenodo.23286569](https://doi.org/10.5281/zenodo.23286569).
+
+Each version-specific DOI identifies a particular archived release. Changes made to the GitHub repository after a release are not automatically included in that archived version.
+
 GitHub repository: https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark
 
 > The DOI identifies the archived software release. It is not a journal-publication DOI for the manuscript.
@@ -210,11 +216,9 @@ These scripts are reproducibility/benchmark programs; the repository does not cu
 
 If you use this software or its benchmark outputs, cite the specific archived release:
 
-> Durodola, D. (2026). *Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23286569
+Durodola, D. (2026). *Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4* (Version v1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23480336
 
-• Version-specific DOI: 10.5281/zenodo.23286569
-• Zenodo record: https://zenodo.org/records/23286569
-• GitHub repository: https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark
+Citing the software DOI does not mean the associated manuscript has been peer-reviewed or published. Cite the manuscript separately once its publication status is established.
 
 The DOI above identifies the archived software release. It should not be described as a DOI for a peer-reviewed journal article unless a journal later publishes a separate paper and assigns its own identifier.
 
