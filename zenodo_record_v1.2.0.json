@@ -1,0 +1,12 @@
+{
+  "record_id": "23566896",
+  "version": "v1.2.0",
+  "doi": "10.5281/zenodo.23566896",
+  "doi_url": "https://doi.org/10.5281/zenodo.23566896",
+  "zenodo_record_url": "https://zenodo.org/records/23566896",
+  "github_repository": "https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark",
+  "github_tag_url": "https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/tree/v1.2.0",
+  "title": "Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4",
+  "version_scope": "Version-specific reference metadata for the v1.2.0 archived software release.",
+  "note": "Lightweight project reference file, not a complete Zenodo API response. The authoritative metadata is available from the public Zenodo record."
+}
