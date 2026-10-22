@@ -1,7 +1,6 @@
 ## Direct Gravitational N-Body Integration Benchmark
 
-[[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23480336.svg)](https://doi.org/10.5281/zenodo.23480336)
-](https://doi.org/10.5281/zenodo.23566896)
+https://doi.org/10.5281/zenodo.23566896
 
 [![Release](https://img.shields.io/badge/release-v1.2.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.2.0)
 
