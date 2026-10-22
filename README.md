@@ -1,18 +1,22 @@
 ## Direct Gravitational N-Body Integration Benchmark
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23480336.svg)](https://doi.org/10.5281/zenodo.23480336)
+[[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23480336.svg)](https://doi.org/10.5281/zenodo.23480336)
+](https://doi.org/10.5281/zenodo.23566896)
 
-[![Release](https://img.shields.io/badge/release-v1.1.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.1.0)
+[![Release](https://img.shields.io/badge/release-v1.2.0-blue)](https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark/releases/tag/v1.2.0)
 
 A reproducible computational-physics benchmark comparing numerical methods for direct Newtonian gravitational N-body integration. The project studies the distinction between conservation behaviour and trajectory accuracy using analytical Kepler solutions, timestep refinement, long-duration eccentric-orbit integrations, and multi-body examples.
 
-Version **v1.1.0** is archived on Zenodo.
+Latest release: v1.2.0
+Latest release DOI: https://doi.org/10.5281/zenodo.23566896
 
-**Latest release DOI:** [10.5281/zenodo.23480336](https://doi.org/10.5281/zenodo.23480336)
+The earlier releases remain available:
 
-The earlier **v1.0.0** release remains available at [10.5281/zenodo.23286569](https://doi.org/10.5281/zenodo.23286569).
+v1.1.0: https://doi.org/10.5281/zenodo.23480336
 
-Each version-specific DOI identifies a particular archived release. Changes made to the GitHub repository after a release are not automatically included in that archived version.
+v1.0.0: https://doi.org/10.5281/zenodo.23286569
+
+Each version-specific DOI identifies a particular archived software release. Changes made to the GitHub repository after a release are not automatically included in that archived version.
 
 GitHub repository: https://github.com/DurodolaDaniel/nbody-gravitational-integration-benchmark
 
@@ -216,11 +220,9 @@ These scripts are reproducibility/benchmark programs; the repository does not cu
 
 If you use this software or its benchmark outputs, cite the specific archived release:
 
-Durodola, D. (2026). *Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4* (Version v1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23480336
+Durodola, D. (2026). Conservation versus Trajectory Accuracy in Direct Gravitational N-Body Integration: A Benchmark of Euler, Velocity-Verlet, RK4, and Yoshida4 (Version v1.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23566896
 
-Citing the software DOI does not mean the associated manuscript has been peer-reviewed or published. Cite the manuscript separately once its publication status is established.
-
-The DOI above identifies the archived software release. It should not be described as a DOI for a peer-reviewed journal article unless a journal later publishes a separate paper and assigns its own identifier.
+The DOI above identifies the archived v1.2.0 software release. It does not imply that the associated manuscript has been peer-reviewed or published. Cite the manuscript separately according to its publication status.
 
 ## License
 
